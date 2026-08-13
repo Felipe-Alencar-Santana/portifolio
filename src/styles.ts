@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   @media (max-width: 768px) {
@@ -34,11 +35,5 @@ export const Container = styled.div`
 
   @media (max-width: 480px) {
     padding: 0 8px;
-  }
-
-  img {
-    width: 100%;
-    max-width: 128px;
-    height: auto;
   }
 `
